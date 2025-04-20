@@ -1,0 +1,5 @@
+2025-04-14 20:32:27.8127|DEBUG|Program|location of wsfscservice is: C:\Users\riott\.nuget\packages\websharper.fsharp\8.0.0.540\tools\net8.0\win-x64 (server side)
+2025-04-14 20:32:27.8127|DEBUG|Program|pipename is: cd040682b4badf65ba5a8f3bf69bc39f (server side)
+2025-04-14 20:32:27.8127|DEBUG|Program|Compiling C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\Project_alpha.fsproj
+2025-04-14 20:32:28.4463|TRACE|Program|Server sends: e: C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\Client.fs(26,23,26,27): error FS0039: The type 'Template<wwwroot/index.html,2>' does not define the field, constructor or member 'Main'.
+2025-04-14 20:32:28.4602|TRACE|Program|Server sends: x: 1

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\riott\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.13.2</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\riott\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\riott\.nuget\packages\fsharp.core\9.0.201</PkgFSharp_Core>
+    <PkgWebSharper Condition=" '$(PkgWebSharper)' == '' ">C:\Users\riott\.nuget\packages\websharper\8.0.0.540</PkgWebSharper>
+    <PkgWebSharper_UI Condition=" '$(PkgWebSharper_UI)' == '' ">C:\Users\riott\.nuget\packages\websharper.ui\8.0.0.540</PkgWebSharper_UI>
+    <PkgWebSharper_FSharp Condition=" '$(PkgWebSharper_FSharp)' == '' ">C:\Users\riott\.nuget\packages\websharper.fsharp\8.0.0.540</PkgWebSharper_FSharp>
+    <PkgWebSharper_AspNetCore Condition=" '$(PkgWebSharper_AspNetCore)' == '' ">C:\Users\riott\.nuget\packages\websharper.aspnetcore\8.0.0.540</PkgWebSharper_AspNetCore>
+    <PkgPdfSharpCore Condition=" '$(PkgPdfSharpCore)' == '' ">C:\Users\riott\.nuget\packages\pdfsharpcore\1.3.67</PkgPdfSharpCore>
+  </PropertyGroup>
+</Project>
