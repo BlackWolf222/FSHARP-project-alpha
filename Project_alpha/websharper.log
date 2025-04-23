@@ -1,5 +1,23 @@
-2025-04-14 20:32:27.8127|DEBUG|Program|location of wsfscservice is: C:\Users\riott\.nuget\packages\websharper.fsharp\8.0.0.540\tools\net8.0\win-x64 (server side)
-2025-04-14 20:32:27.8127|DEBUG|Program|pipename is: cd040682b4badf65ba5a8f3bf69bc39f (server side)
-2025-04-14 20:32:27.8127|DEBUG|Program|Compiling C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\Project_alpha.fsproj
-2025-04-14 20:32:28.4463|TRACE|Program|Server sends: e: C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\Client.fs(26,23,26,27): error FS0039: The type 'Template<wwwroot/index.html,2>' does not define the field, constructor or member 'Main'.
-2025-04-14 20:32:28.4602|TRACE|Program|Server sends: x: 1
+2025-04-23 19:52:38.2192|DEBUG|Program|location of wsfscservice is: C:\Users\riott\.nuget\packages\websharper.fsharp\8.0.0.540\tools\net8.0\win-x64 (server side)
+2025-04-23 19:52:38.2192|DEBUG|Program|pipename is: cd040682b4badf65ba5a8f3bf69bc39f (server side)
+2025-04-23 19:52:38.2192|DEBUG|Program|Compiling C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\Project_alpha.fsproj
+2025-04-23 19:52:39.1800|TRACE|Program|Server sends: n: F# compilation: 00:00:00.9674999
+2025-04-23 19:52:39.3151|TRACE|Program|Server sends: n: Checking project: 00:00:00.1350909
+2025-04-23 19:52:39.3151|TRACE|Program|Server sends: n: Waiting on merged metadata: 00:00:00.0007376
+2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: Parsing with FCS: 00:00:00.0391578
+2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: Analyzing function arguments: 00:00:00.0006811
+2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: Resolving names: 00:00:00.0005880
+2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: WebSharper translation: 00:00:00.0024979
+2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: Source position transformations: 00:00:00.0014706
+2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: Packaging assembly: 00:00:00.0008531
+2025-04-23 19:52:39.3801|TRACE|Program|Server sends: n: Computing metadata: 00:00:00.0190732
+2025-04-23 19:52:39.3801|TRACE|Program|Server sends: n: Writing reexports root.js: 00:00:00.0007833
+2025-04-23 19:52:39.3801|TRACE|Program|Server sends: n: Writing Project_alpha.Client.js: 00:00:00.0036410
+2025-04-23 19:52:39.3801|TRACE|Program|Server sends: n: Writing $StartupCode_Client.js: 00:00:00.0005910
+2025-04-23 19:52:39.3801|TRACE|Program|Server sends: n: Writing $EntryPoint.js: 00:00:00.0003755
+2025-04-23 19:52:39.3865|TRACE|Program|Server sends: n: Writing .d.ts files: 00:00:00.0010026
+2025-04-23 19:52:39.3865|TRACE|Program|Server sends: n: Hashing resources: 00:00:00.0004667
+2025-04-23 19:52:39.4531|TRACE|Program|Server sends: n: Serializing metadata: 00:00:00.0661339
+2025-04-23 19:52:39.4531|TRACE|Program|Server sends: n: Writing resources into assembly: 00:00:00.0043989
+2025-04-23 19:52:39.5410|TRACE|Program|Server sends: n: Bundling: 00:00:00.0834588
+2025-04-23 19:52:39.5535|TRACE|Program|Server sends: x: 0

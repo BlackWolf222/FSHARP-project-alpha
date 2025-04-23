@@ -1,6 +1,38 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.css",
+      "PackagePath": "staticwebassets\\Scripts\\Project_alpha.css"
+    },
+    {
+      "Id": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.head.html",
+      "PackagePath": "staticwebassets\\Scripts\\Project_alpha.head.html"
+    },
+    {
+      "Id": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.head.js",
+      "PackagePath": "staticwebassets\\Scripts\\Project_alpha.head.js"
+    },
+    {
+      "Id": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.js",
+      "PackagePath": "staticwebassets\\Scripts\\Project_alpha.js"
+    },
+    {
+      "Id": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\Project_alpha.min.js"
+    },
+    {
+      "Id": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\WebSharper.Core.JavaScript\\Runtime.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper.Core.JavaScript\\Runtime.js"
+    },
+    {
+      "Id": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\img\\pdf.png",
+      "PackagePath": "staticwebassets\\img\\pdf.png"
+    },
+    {
       "Id": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

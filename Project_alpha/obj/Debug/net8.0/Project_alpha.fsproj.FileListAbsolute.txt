@@ -69,3 +69,9 @@ C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\obj\Debug\net8.0\Project
 C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\obj\Debug\net8.0\Project_alpha.dll
 C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\obj\Debug\net8.0\Project_alpha.pdb
 C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\obj\Debug\net8.0\Project_alpha.genruntimeconfig.cache
+C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\bin\Debug\net8.0\PdfSharpCore.dll
+C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\bin\Debug\net8.0\de\PdfSharpCore.resources.dll
+C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\obj\Debug\net8.0\Project_alpha.sourcelink.json

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p+Fw+FdYjKNkuqxyAK/rdUwfepkDaqoUI5z22YhBuE4=",
+  "Hash": "5TfMCASc/1EoMkg+JxjQfGGJcT6TmrYvj57R1RnjMws=",
   "Source": "Project_alpha",
   "BasePath": "_content/Project_alpha",
   "Mode": "Default",
@@ -17,6 +17,48 @@
   ],
   "Assets": [
     {
+      "Identity": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\css\\style.css",
+      "SourceId": "Project_alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\",
+      "BasePath": "_content/Project_alpha",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e1b5i8l121",
+      "Integrity": "3jbJh2yCl9KB6Nemh8LHQo8xtobSVDgQp++mAbyg8lg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\img\\pdf.png",
+      "SourceId": "Project_alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\",
+      "BasePath": "_content/Project_alpha",
+      "RelativePath": "img/pdf#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lnn97dw4ll",
+      "Integrity": "/2THPzJtxIns7I+Huqh0RbPSnNolqj9eaIkCw6OSbAY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pdf.png"
+    },
+    {
       "Identity": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\index.html",
       "SourceId": "Project_alpha",
       "SourceType": "Discovered",
@@ -31,14 +73,304 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rsb3961vds",
-      "Integrity": "e6/OXH5SKF4fK8W7SgK6XqAjFOqq5Ikt8SXX3MMxClE=",
+      "Fingerprint": "t84depdvnb",
+      "Integrity": "vbh6/wqNpvYnjkrobeINEu8mPQ0mLoxOIDqTv9z3lgc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.css",
+      "SourceId": "Project_alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\",
+      "BasePath": "_content/Project_alpha",
+      "RelativePath": "Scripts/Project_alpha#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Project_alpha.css"
+    },
+    {
+      "Identity": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.head.html",
+      "SourceId": "Project_alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\",
+      "BasePath": "_content/Project_alpha",
+      "RelativePath": "Scripts/Project_alpha.head#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Project_alpha.head.html"
+    },
+    {
+      "Identity": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.head.js",
+      "SourceId": "Project_alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\",
+      "BasePath": "_content/Project_alpha",
+      "RelativePath": "Scripts/Project_alpha.head#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j7k5w70rl7",
+      "Integrity": "ca4b0K2Y5GqXDsPnqvdFi/ZcZ8dv8ZV+jiRsQ9FmgBc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Project_alpha.head.js"
+    },
+    {
+      "Identity": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.js",
+      "SourceId": "Project_alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\",
+      "BasePath": "_content/Project_alpha",
+      "RelativePath": "Scripts/Project_alpha#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57djq981yw",
+      "Integrity": "kafAJhd5GK9xdaORacy1WhbfZ8/sPVyYJTn78r1Ta9o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Project_alpha.js"
+    },
+    {
+      "Identity": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.min.js",
+      "SourceId": "Project_alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\",
+      "BasePath": "_content/Project_alpha",
+      "RelativePath": "Scripts/Project_alpha.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vfzqyas04h",
+      "Integrity": "FUCNzMUm92SbVMgKDMPopxG1Q9g82wr83kSiNlw3cEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Project_alpha.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\WebSharper.Core.JavaScript\\Runtime.js",
+      "SourceId": "Project_alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\",
+      "BasePath": "_content/Project_alpha",
+      "RelativePath": "Scripts/WebSharper.Core.JavaScript/Runtime#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ye3nh9ay57",
+      "Integrity": "CgZAoke4eDhLJ49Eas6Ad0lrW0DXyFDQx6MrlELhuaI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\WebSharper.Core.JavaScript\\Runtime.js"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3jbJh2yCl9KB6Nemh8LHQo8xtobSVDgQp++mAbyg8lg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 18:09:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3jbJh2yCl9KB6Nemh8LHQo8xtobSVDgQp++mAbyg8lg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.e1b5i8l121.css",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3jbJh2yCl9KB6Nemh8LHQo8xtobSVDgQp++mAbyg8lg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 18:09:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e1b5i8l121"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3jbJh2yCl9KB6Nemh8LHQo8xtobSVDgQp++mAbyg8lg="
+        }
+      ]
+    },
+    {
+      "Route": "img/pdf.lnn97dw4ll.png",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\img\\pdf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/2THPzJtxIns7I+Huqh0RbPSnNolqj9eaIkCw6OSbAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Jun 2024 13:57:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lnn97dw4ll"
+        },
+        {
+          "Name": "label",
+          "Value": "img/pdf.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/2THPzJtxIns7I+Huqh0RbPSnNolqj9eaIkCw6OSbAY="
+        }
+      ]
+    },
+    {
+      "Route": "img/pdf.png",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\img\\pdf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/2THPzJtxIns7I+Huqh0RbPSnNolqj9eaIkCw6OSbAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Jun 2024 13:57:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/2THPzJtxIns7I+Huqh0RbPSnNolqj9eaIkCw6OSbAY="
+        }
+      ]
+    },
     {
       "Route": "index.html",
       "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\index.html",
@@ -50,7 +382,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1003"
+          "Value": "1109"
         },
         {
           "Name": "Content-Type",
@@ -58,11 +390,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"e6/OXH5SKF4fK8W7SgK6XqAjFOqq5Ikt8SXX3MMxClE=\""
+          "Value": "\"vbh6/wqNpvYnjkrobeINEu8mPQ0mLoxOIDqTv9z3lgc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 17:31:04 GMT"
+          "Value": "Wed, 23 Apr 2025 18:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72,12 +404,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-e6/OXH5SKF4fK8W7SgK6XqAjFOqq5Ikt8SXX3MMxClE="
+          "Value": "sha256-vbh6/wqNpvYnjkrobeINEu8mPQ0mLoxOIDqTv9z3lgc="
         }
       ]
     },
     {
-      "Route": "index.rsb3961vds.html",
+      "Route": "index.t84depdvnb.html",
       "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -87,7 +419,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1003"
+          "Value": "1109"
         },
         {
           "Name": "Content-Type",
@@ -95,11 +427,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"e6/OXH5SKF4fK8W7SgK6XqAjFOqq5Ikt8SXX3MMxClE=\""
+          "Value": "\"vbh6/wqNpvYnjkrobeINEu8mPQ0mLoxOIDqTv9z3lgc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 17:31:04 GMT"
+          "Value": "Wed, 23 Apr 2025 18:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -109,7 +441,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rsb3961vds"
+          "Value": "t84depdvnb"
         },
         {
           "Name": "label",
@@ -117,7 +449,499 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-e6/OXH5SKF4fK8W7SgK6XqAjFOqq5Ikt8SXX3MMxClE="
+          "Value": "sha256-vbh6/wqNpvYnjkrobeINEu8mPQ0mLoxOIDqTv9z3lgc="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.57djq981yw.js",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kafAJhd5GK9xdaORacy1WhbfZ8/sPVyYJTn78r1Ta9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57djq981yw"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/Project_alpha.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kafAJhd5GK9xdaORacy1WhbfZ8/sPVyYJTn78r1Ta9o="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/Project_alpha.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.css",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.head.5ipweew5fc.html",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.head.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/Project_alpha.head.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.head.html",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.head.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.head.j7k5w70rl7.js",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.head.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ca4b0K2Y5GqXDsPnqvdFi/ZcZ8dv8ZV+jiRsQ9FmgBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j7k5w70rl7"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/Project_alpha.head.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ca4b0K2Y5GqXDsPnqvdFi/ZcZ8dv8ZV+jiRsQ9FmgBc="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.head.js",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.head.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ca4b0K2Y5GqXDsPnqvdFi/ZcZ8dv8ZV+jiRsQ9FmgBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ca4b0K2Y5GqXDsPnqvdFi/ZcZ8dv8ZV+jiRsQ9FmgBc="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.js",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kafAJhd5GK9xdaORacy1WhbfZ8/sPVyYJTn78r1Ta9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kafAJhd5GK9xdaORacy1WhbfZ8/sPVyYJTn78r1Ta9o="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.min.js",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUCNzMUm92SbVMgKDMPopxG1Q9g82wr83kSiNlw3cEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUCNzMUm92SbVMgKDMPopxG1Q9g82wr83kSiNlw3cEw="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.min.vfzqyas04h.js",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUCNzMUm92SbVMgKDMPopxG1Q9g82wr83kSiNlw3cEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vfzqyas04h"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/Project_alpha.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUCNzMUm92SbVMgKDMPopxG1Q9g82wr83kSiNlw3cEw="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/WebSharper.Core.JavaScript/Runtime.js",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\WebSharper.Core.JavaScript\\Runtime.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CgZAoke4eDhLJ49Eas6Ad0lrW0DXyFDQx6MrlELhuaI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CgZAoke4eDhLJ49Eas6Ad0lrW0DXyFDQx6MrlELhuaI="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/WebSharper.Core.JavaScript/Runtime.ye3nh9ay57.js",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\wwwroot\\Scripts\\WebSharper.Core.JavaScript\\Runtime.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CgZAoke4eDhLJ49Eas6Ad0lrW0DXyFDQx6MrlELhuaI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 17:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ye3nh9ay57"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/WebSharper.Core.JavaScript/Runtime.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CgZAoke4eDhLJ49Eas6Ad0lrW0DXyFDQx6MrlELhuaI="
         }
       ]
     }

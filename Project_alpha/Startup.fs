@@ -1,4 +1,5 @@
 open System
+open System.Threading.Tasks
 open Microsoft.AspNetCore.Builder
 open Microsoft.Extensions.Hosting
 open Microsoft.AspNetCore.Http
@@ -32,7 +33,22 @@ let main args =
         .UseDefaultFiles()
         .UseStaticFiles()
         //Enable if you want to make RPC calls to server
-        .UseWebSharperRemoting(fun ws -> ())
+        .UseRouting()
+        .UseEndpoints(fun endpoints ->
+            endpoints.MapPost("/merge", Func<HttpContext, Task>(fun ctx ->
+                task {
+                    let files = ctx.Request.Form.Files
+                    match Project_alpha.PdfMergeHandler.mergePdfs files with
+                    | Ok pdfBytes ->
+                        ctx.Response.ContentType <- "application/pdf"
+                        ctx.Response.ContentLength <- Nullable(int64 pdfBytes.Length)
+                        do! ctx.Response.Body.WriteAsync(pdfBytes, 0, pdfBytes.Length)
+                    | Error msg ->
+                        ctx.Response.StatusCode <- 400
+                        do! ctx.Response.WriteAsync(msg)
+                }
+            )) |> ignore
+        )
     |> ignore 
        
     app.Run()

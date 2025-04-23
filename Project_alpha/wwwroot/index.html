@@ -4,6 +4,7 @@
     <title>PDF Merger</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <style>
         /* Don't show the not-yet-loaded templates */
@@ -15,59 +16,16 @@
 <body>
     <div>
         <h2 id="title">PDFMerger</h2>
-        <form method="post" action="/merge" enctype="multipart/form-data" id="form">
+        <form id="form" method="post" action="/merge" enctype="multipart/form-data">
             <div class="dropzone" id="drop">
-                <input type="file" name="pdfs" id="myFile" multiple accept=".pdf">
-                <br><br>
-                <img src="img/pdf.png" alt="pdf icon">
-                <p>Drag 'n' drop some files here,or click to <label for="File"><label for="File">select files</label></label></p>
-                <input type="file" id="File" name="pdfs" multiple accept=".pdf">
+                <input type="file" name="pdfs" id="myFile" multiple accept=".pdf" />
+                <img src="img/pdf.png" alt="pdf icon" />
+                <label for="myFile">Válassz PDF-et vagy húzd ide!</label>
             </div>
-            <br><br>
-            <input type="submit" value="Merge" id="submitbtn">
-            <br><br>
-            <div id="dis">
-                <h3>&emsp; Files:</h3>
-                <div id="fdisplay"></div>
-            </div>
+            <div id="fdisplay"></div>
+            <button type="button" id="mergeBtn">Merge PDFs</button>
         </form>
+        <div id="result"></div>
     </div>
 </body>
 </html>
-<script>
-    var dropzone = document.getElementById('drop');
-    var selDiv = document.querySelector("#fdisplay");
-
-    dropzone.ondragover = dropzone.ondragenter = function (evt) {
-        evt.preventDefault();
-    };
-
-    dropzone.ondrop = function (evt) {
-        var fileInput = document.getElementById('myFile');
-        evt.preventDefault();
-        fileInput.files = evt.dataTransfer.files;
-        select(fileInput.files)
-
-    };
-
-    var selDiv = document.querySelector("#fdisplay");
-    document.addEventListener("DOMContentLoaded", init, false);
-
-    function init() {
-        document.querySelector('#File').addEventListener('change', handleFileSelect, false);
-    }
-
-    function handleFileSelect(e) {
-        if (!e.target.files) return;
-        select(e.target.files)
-    }
-
-    function select(files) {
-        selDiv.innerHTML = "";
-        var files = files;
-        for (var i = 0; i < files.length; i++) {
-            var f = files[i];
-            selDiv.innerHTML += f.name + "<br/>";
-        }
-    }
-</script>

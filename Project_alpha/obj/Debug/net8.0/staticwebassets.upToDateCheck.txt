@@ -1,1 +1,9 @@
+wwwroot\css\style.css
+wwwroot\img\pdf.png
 wwwroot\index.html
+wwwroot\Scripts\Project_alpha.css
+wwwroot\Scripts\Project_alpha.head.html
+wwwroot\Scripts\Project_alpha.head.js
+wwwroot\Scripts\Project_alpha.js
+wwwroot\Scripts\Project_alpha.min.js
+wwwroot\Scripts\WebSharper.Core.JavaScript\Runtime.js
