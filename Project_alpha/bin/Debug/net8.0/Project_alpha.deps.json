@@ -8,22 +8,22 @@
     ".NETCoreApp,Version=v8.0": {
       "Project_alpha/1.0.0": {
         "dependencies": {
-          "FSharp.Core": "9.0.201",
+          "FSharp.Core": "9.0.202",
           "PdfSharpCore": "1.3.67",
-          "WebSharper": "8.0.0.540",
-          "WebSharper.AspNetCore": "8.0.0.540",
-          "WebSharper.FSharp": "8.0.0.540",
-          "WebSharper.UI": "8.0.0.540"
+          "WebSharper": "9.0.1.549",
+          "WebSharper.AspNetCore": "9.0.1.549",
+          "WebSharper.FSharp": "9.0.1.549",
+          "WebSharper.UI": "9.0.0.547"
         },
         "runtime": {
           "Project_alpha.dll": {}
         }
       },
-      "FSharp.Core/9.0.201": {
+      "FSharp.Core/9.0.202": {
         "runtime": {
           "lib/netstandard2.1/FSharp.Core.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.2.125.7003"
+            "fileVersion": "9.2.225.15402"
           }
         },
         "resources": {
@@ -793,79 +793,79 @@
           }
         }
       },
-      "WebSharper/8.0.0.540": {
+      "WebSharper/9.0.1.549": {
         "dependencies": {
-          "FSharp.Core": "9.0.201",
+          "FSharp.Core": "9.0.202",
           "System.Reflection.Emit.Lightweight": "4.7.0"
         },
         "runtime": {
           "lib/netstandard2.0/WebSharper.Core.JavaScript.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.549"
           },
           "lib/netstandard2.0/WebSharper.Core.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.549"
           },
           "lib/netstandard2.0/WebSharper.InterfaceGenerator.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.549"
           },
           "lib/netstandard2.0/WebSharper.JavaScript.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.549"
           },
           "lib/netstandard2.0/WebSharper.Sitelets.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.549"
           },
           "lib/netstandard2.0/WebSharper.StdLib.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.549"
           },
           "lib/netstandard2.0/WebSharper.Web.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.549"
           }
         }
       },
-      "WebSharper.AspNetCore/8.0.0.540": {
+      "WebSharper.AspNetCore/9.0.1.549": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.0.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.0.0",
           "System.Configuration.ConfigurationManager": "4.7.0",
-          "WebSharper": "8.0.0.540"
+          "WebSharper": "9.0.1.549"
         },
         "runtime": {
           "lib/netstandard2.0/WebSharper.AspNetCore.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.549"
           }
         }
       },
-      "WebSharper.FSharp/8.0.0.540": {
+      "WebSharper.FSharp/9.0.1.549": {
         "dependencies": {
-          "WebSharper": "8.0.0.540"
+          "WebSharper": "9.0.1.549"
         }
       },
-      "WebSharper.UI/8.0.0.540": {
+      "WebSharper.UI/9.0.0.547": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.0",
-          "WebSharper": "8.0.0.540"
+          "WebSharper": "9.0.1.549"
         },
         "runtime": {
           "lib/netstandard2.0/WebSharper.UI.Templating.Common.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.547"
           },
           "lib/netstandard2.0/WebSharper.UI.Templating.Runtime.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.547"
           },
           "lib/netstandard2.0/WebSharper.UI.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.540"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.547"
           }
         }
       }
@@ -877,12 +877,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FSharp.Core/9.0.201": {
+    "FSharp.Core/9.0.202": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ozq4T0ISTkqTYJ035XW/JkdDDaXofbykvfyVwkjLSqaDZ/4uNXfpf92cjcMI9lf9CxWqmlWHScViPh/4AvnWcw==",
-      "path": "fsharp.core/9.0.201",
-      "hashPath": "fsharp.core.9.0.201.nupkg.sha512"
+      "sha512": "sha512-p8iGT2PeRL9q0ZIQ3ZhmRMRs4+b5Xaf9SSYKOt/+tDtznMQhHovYWaD1491RvBz8rnxcesAISbrkrjI1/4TUtw==",
+      "path": "fsharp.core/9.0.202",
+      "hashPath": "fsharp.core.9.0.202.nupkg.sha512"
     },
     "HtmlAgilityPack/1.11.0": {
       "type": "package",
@@ -1500,33 +1500,33 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "WebSharper/8.0.0.540": {
+    "WebSharper/9.0.1.549": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7FdY+17oEpOCFYOFY4G7OHntJ2Uy8UU5e79hdJK5XTBPB21JUm7njT+2f5kMhljEA7kMIvNltmPOJpMuCmV7ig==",
-      "path": "websharper/8.0.0.540",
-      "hashPath": "websharper.8.0.0.540.nupkg.sha512"
+      "sha512": "sha512-iyaLTAkyf3OUBqo/+X95+7aTXx+VOUCwVcKqN5or710dCgQsLkYIWBdnJIT6DEhu91ekLiEW8glfbm2kS8z8dQ==",
+      "path": "websharper/9.0.1.549",
+      "hashPath": "websharper.9.0.1.549.nupkg.sha512"
     },
-    "WebSharper.AspNetCore/8.0.0.540": {
+    "WebSharper.AspNetCore/9.0.1.549": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rCN6+JcLq06u4WZNY0Idz7ecyuwZRE474CIwWUkj48tGA60n5RO+htNr8R7OrGiFDzyENEQkGQClnpOXBHDR1g==",
-      "path": "websharper.aspnetcore/8.0.0.540",
-      "hashPath": "websharper.aspnetcore.8.0.0.540.nupkg.sha512"
+      "sha512": "sha512-Y3UGTPwvSyZMJ6eZmqH5ind1rvOJ3EhGv0BCg8nIVBn+VMpcV+KmIS2fvOEjCmzHsGpJAH63ufP3z5L0B3h7JQ==",
+      "path": "websharper.aspnetcore/9.0.1.549",
+      "hashPath": "websharper.aspnetcore.9.0.1.549.nupkg.sha512"
     },
-    "WebSharper.FSharp/8.0.0.540": {
+    "WebSharper.FSharp/9.0.1.549": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1kbrroXrFUcQZSei4KNEFbYurSLYn6gpg3y53EH2/vEobrA8siap48+d/GvWzMJo17SoRy9b5ipL/qofDUzF9g==",
-      "path": "websharper.fsharp/8.0.0.540",
-      "hashPath": "websharper.fsharp.8.0.0.540.nupkg.sha512"
+      "sha512": "sha512-Gw6OoNTcyvvSrEOsmP+CcLRJ1u98EldRfOad52JGbLhEDO+HZRRt5XGHraOcXNYIkl+odWJ9X65lNuF2nKiumg==",
+      "path": "websharper.fsharp/9.0.1.549",
+      "hashPath": "websharper.fsharp.9.0.1.549.nupkg.sha512"
     },
-    "WebSharper.UI/8.0.0.540": {
+    "WebSharper.UI/9.0.0.547": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wjyNrhNWIj0hnZ1e8oeNeHG2TUV0g2wlZcOuubgbRnbmvaK7NwIWBvdV/c4jaMWevs5nhRzjUaHrMtJos+cQ/w==",
-      "path": "websharper.ui/8.0.0.540",
-      "hashPath": "websharper.ui.8.0.0.540.nupkg.sha512"
+      "sha512": "sha512-HKZI2I5ZTQdk9FkuD44wJ+aE+Wf3q9KhJnlbJePw0+ARZ7KzrSB2wU3znzeQJq69eSEsHh6YXVRXeeEcdHPQ7Q==",
+      "path": "websharper.ui/9.0.0.547",
+      "hashPath": "websharper.ui.9.0.0.547.nupkg.sha512"
     }
   }
 }

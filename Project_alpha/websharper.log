@@ -1,23 +1,25 @@
-2025-04-23 19:52:38.2192|DEBUG|Program|location of wsfscservice is: C:\Users\riott\.nuget\packages\websharper.fsharp\8.0.0.540\tools\net8.0\win-x64 (server side)
-2025-04-23 19:52:38.2192|DEBUG|Program|pipename is: cd040682b4badf65ba5a8f3bf69bc39f (server side)
-2025-04-23 19:52:38.2192|DEBUG|Program|Compiling C:\Users\riott\Desktop\Code\Project_alpha\Project_alpha\Project_alpha.fsproj
-2025-04-23 19:52:39.1800|TRACE|Program|Server sends: n: F# compilation: 00:00:00.9674999
-2025-04-23 19:52:39.3151|TRACE|Program|Server sends: n: Checking project: 00:00:00.1350909
-2025-04-23 19:52:39.3151|TRACE|Program|Server sends: n: Waiting on merged metadata: 00:00:00.0007376
-2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: Parsing with FCS: 00:00:00.0391578
-2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: Analyzing function arguments: 00:00:00.0006811
-2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: Resolving names: 00:00:00.0005880
-2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: WebSharper translation: 00:00:00.0024979
-2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: Source position transformations: 00:00:00.0014706
-2025-04-23 19:52:39.3550|TRACE|Program|Server sends: n: Packaging assembly: 00:00:00.0008531
-2025-04-23 19:52:39.3801|TRACE|Program|Server sends: n: Computing metadata: 00:00:00.0190732
-2025-04-23 19:52:39.3801|TRACE|Program|Server sends: n: Writing reexports root.js: 00:00:00.0007833
-2025-04-23 19:52:39.3801|TRACE|Program|Server sends: n: Writing Project_alpha.Client.js: 00:00:00.0036410
-2025-04-23 19:52:39.3801|TRACE|Program|Server sends: n: Writing $StartupCode_Client.js: 00:00:00.0005910
-2025-04-23 19:52:39.3801|TRACE|Program|Server sends: n: Writing $EntryPoint.js: 00:00:00.0003755
-2025-04-23 19:52:39.3865|TRACE|Program|Server sends: n: Writing .d.ts files: 00:00:00.0010026
-2025-04-23 19:52:39.3865|TRACE|Program|Server sends: n: Hashing resources: 00:00:00.0004667
-2025-04-23 19:52:39.4531|TRACE|Program|Server sends: n: Serializing metadata: 00:00:00.0661339
-2025-04-23 19:52:39.4531|TRACE|Program|Server sends: n: Writing resources into assembly: 00:00:00.0043989
-2025-04-23 19:52:39.5410|TRACE|Program|Server sends: n: Bundling: 00:00:00.0834588
-2025-04-23 19:52:39.5535|TRACE|Program|Server sends: x: 0
+2025-04-24 22:18:12.5665|DEBUG|Program|location of wsfscservice is: C:\Users\riott\.nuget\packages\websharper.fsharp\9.0.1.549\tools\net8.0\win-x64 (server side)
+2025-04-24 22:18:12.5665|DEBUG|Program|pipename is: 23a5dd36cf84f301f4b14c3d3dda057d (server side)
+2025-04-24 22:18:12.5665|DEBUG|Program|Compiling C:\Users\riott\Desktop\F\FSHARP-project-alpha\Project_alpha\Project_alpha.fsproj
+2025-04-24 22:18:14.6308|TRACE|Program|Server sends: e: C:\Users\riott\Desktop\F\FSHARP-project-alpha\Project_alpha\Startup.fs(23,5,23,38): warning FS0020: The result of this expression has type 'IMvcBuilder' and is implicitly ignored. Consider using 'ignore' to discard this value explicitly, e.g. 'expr |> ignore', or 'let' to bind the result to a name, e.g. 'let result = expr'.
+2025-04-24 22:18:14.6494|TRACE|Program|Server sends: n: F# compilation: 00:00:02.0919817
+2025-04-24 22:18:16.5483|TRACE|Program|Server sends: n: Checking project: 00:00:01.8990286
+2025-04-24 22:18:16.5483|TRACE|Program|Server sends: n: Waiting on merged metadata: 00:00:00.0019625
+2025-04-24 22:18:16.6546|TRACE|Program|Server sends: n: Parsing with FCS: 00:00:00.1042859
+2025-04-24 22:18:16.6546|TRACE|Program|Server sends: n: Analyzing function arguments: 00:00:00.0026310
+2025-04-24 22:18:16.6592|TRACE|Program|Server sends: n: Resolving names: 00:00:00.0020076
+2025-04-24 22:18:16.6923|TRACE|Program|Server sends: n: WebSharper translation: 00:00:00.0330787
+2025-04-24 22:18:16.6923|TRACE|Program|Server sends: n: Source position transformations: 00:00:00.0033952
+2025-04-24 22:18:16.6923|TRACE|Program|Server sends: n: Packaging assembly: 00:00:00.0025497
+2025-04-24 22:18:16.7618|TRACE|Program|Server sends: n: Computing metadata: 00:00:00.0635809
+2025-04-24 22:18:16.7618|TRACE|Program|Server sends: n: Writing reexports root.js: 00:00:00.0020951
+2025-04-24 22:18:16.7669|TRACE|Program|Server sends: n: Writing Project_alpha.PdfMerger.js: 00:00:00.0029485
+2025-04-24 22:18:16.7669|TRACE|Program|Server sends: n: Writing Project_alpha.Client.js: 00:00:00.0015404
+2025-04-24 22:18:16.7669|TRACE|Program|Server sends: n: Writing $StartupCode_Client.js: 00:00:00.0011024
+2025-04-24 22:18:16.7669|TRACE|Program|Server sends: n: Writing $EntryPoint.js: 00:00:00.0017264
+2025-04-24 22:18:16.7669|TRACE|Program|Server sends: n: Writing .d.ts files: 00:00:00.0019280
+2025-04-24 22:18:16.7669|TRACE|Program|Server sends: n: Hashing resources: 00:00:00.0014032
+2025-04-24 22:18:16.9432|TRACE|Program|Server sends: n: Serializing metadata: 00:00:00.1685597
+2025-04-24 22:18:16.9637|TRACE|Program|Server sends: n: Writing resources into assembly: 00:00:00.0205411
+2025-04-24 22:18:17.1595|TRACE|Program|Server sends: n: Bundling: 00:00:00.1958512
+2025-04-24 22:18:17.2018|TRACE|Program|Server sends: x: 0

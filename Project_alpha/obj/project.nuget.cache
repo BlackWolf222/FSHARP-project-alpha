@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JQmd4/N72rU=",
+  "dgSpecHash": "+PSJy/yLtI4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\Project_alpha.fsproj",
+  "projectFilePath": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Project_alpha.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\riott\\.nuget\\packages\\fsharp.core\\9.0.201\\fsharp.core.9.0.201.nupkg.sha512",
+    "C:\\Users\\riott\\.nuget\\packages\\fsharp.core\\9.0.202\\fsharp.core.9.0.202.nupkg.sha512",
     "C:\\Users\\riott\\.nuget\\packages\\htmlagilitypack\\1.11.0\\htmlagilitypack.1.11.0.nupkg.sha512",
     "C:\\Users\\riott\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.0.0\\microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\riott\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
@@ -93,10 +93,10 @@
     "C:\\Users\\riott\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\riott\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\riott\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\riott\\.nuget\\packages\\websharper\\8.0.0.540\\websharper.8.0.0.540.nupkg.sha512",
-    "C:\\Users\\riott\\.nuget\\packages\\websharper.aspnetcore\\8.0.0.540\\websharper.aspnetcore.8.0.0.540.nupkg.sha512",
-    "C:\\Users\\riott\\.nuget\\packages\\websharper.fsharp\\8.0.0.540\\websharper.fsharp.8.0.0.540.nupkg.sha512",
-    "C:\\Users\\riott\\.nuget\\packages\\websharper.ui\\8.0.0.540\\websharper.ui.8.0.0.540.nupkg.sha512"
+    "C:\\Users\\riott\\.nuget\\packages\\websharper\\9.0.1.549\\websharper.9.0.1.549.nupkg.sha512",
+    "C:\\Users\\riott\\.nuget\\packages\\websharper.aspnetcore\\9.0.1.549\\websharper.aspnetcore.9.0.1.549.nupkg.sha512",
+    "C:\\Users\\riott\\.nuget\\packages\\websharper.fsharp\\9.0.1.549\\websharper.fsharp.9.0.1.549.nupkg.sha512",
+    "C:\\Users\\riott\\.nuget\\packages\\websharper.ui\\9.0.0.547\\websharper.ui.9.0.0.547.nupkg.sha512"
   ],
   "logs": []
 }

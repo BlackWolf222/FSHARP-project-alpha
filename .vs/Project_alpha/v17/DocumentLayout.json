@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|c:\\users\\riott\\desktop\\f\\fsharp-project-alpha\\project_alpha\\client.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|solutionrelative:project_alpha\\client.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|c:\\users\\riott\\desktop\\f\\fsharp-project-alpha\\project_alpha\\startup.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|solutionrelative:project_alpha\\startup.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|c:\\users\\riott\\desktop\\f\\fsharp-project-alpha\\project_alpha\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|solutionrelative:project_alpha\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|c:\\users\\riott\\desktop\\f\\fsharp-project-alpha\\project_alpha\\site.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|solutionrelative:project_alpha\\site.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|c:\\users\\riott\\desktop\\f\\fsharp-project-alpha\\project_alpha\\pdfmerger.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|solutionrelative:project_alpha\\pdfmerger.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|c:\\users\\riott\\desktop\\f\\fsharp-project-alpha\\project_alpha\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0141D8C7-EA2E-4676-8F53-24993806B9ED}|Project_alpha\\Project_alpha.fsproj|solutionrelative:project_alpha\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.fs",
+              "DocumentMoniker": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Startup.fs",
+              "RelativeDocumentMoniker": "Project_alpha\\Startup.fs",
+              "ToolTip": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Startup.fs",
+              "RelativeToolTip": "Project_alpha\\Startup.fs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvycAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T14:59:35.111Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Client.fs",
+              "DocumentMoniker": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Client.fs",
+              "RelativeDocumentMoniker": "Project_alpha\\Client.fs",
+              "ToolTip": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Client.fs",
+              "RelativeToolTip": "Project_alpha\\Client.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T14:43:40.207Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Project_alpha\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\wwwroot\\index.html",
+              "RelativeToolTip": "Project_alpha\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-24T14:40:06.109Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.fs",
+              "DocumentMoniker": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\site.fs",
+              "RelativeDocumentMoniker": "Project_alpha\\site.fs",
+              "ToolTip": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\site.fs",
+              "RelativeToolTip": "Project_alpha\\site.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T19:34:36.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Project_alpha\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Project_alpha\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T19:22:02.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PdfMerger.fs",
+              "DocumentMoniker": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\PdfMerger.fs",
+              "RelativeDocumentMoniker": "Project_alpha\\PdfMerger.fs",
+              "ToolTip": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\PdfMerger.fs",
+              "RelativeToolTip": "Project_alpha\\PdfMerger.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T16:37:21.107Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

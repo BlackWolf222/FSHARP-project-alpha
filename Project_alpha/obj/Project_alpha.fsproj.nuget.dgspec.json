@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\Project_alpha.fsproj": {}
+    "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Project_alpha.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\Project_alpha.fsproj": {
+    "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Project_alpha.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\Project_alpha.fsproj",
+        "projectUniqueName": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Project_alpha.fsproj",
         "projectName": "Project_alpha",
-        "projectPath": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\Project_alpha.fsproj",
+        "projectPath": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Project_alpha.fsproj",
         "packagesPath": "C:\\Users\\riott\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\riott\\Desktop\\Code\\Project_alpha\\Project_alpha\\obj\\",
+        "outputPath": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,9 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\9.0.201\\FSharp\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/dotnet-websharper/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\9.0.102\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -41,7 +41,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -50,7 +50,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[9.0.201, )",
+              "version": "[9.0.202, )",
               "generatePathProperty": true
             },
             "PdfSharpCore": {
@@ -60,22 +60,22 @@
             },
             "WebSharper": {
               "target": "Package",
-              "version": "[8.0.0.540, )",
+              "version": "[9.0.1.549, )",
               "generatePathProperty": true
             },
             "WebSharper.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.0.540, )",
+              "version": "[9.0.1.549, )",
               "generatePathProperty": true
             },
             "WebSharper.FSharp": {
               "target": "Package",
-              "version": "[8.0.0.540, )",
+              "version": "[9.0.1.549, )",
               "generatePathProperty": true
             },
             "WebSharper.UI": {
               "target": "Package",
-              "version": "[8.0.0.540, )",
+              "version": "[9.0.0.547, )",
               "generatePathProperty": true
             }
           },
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

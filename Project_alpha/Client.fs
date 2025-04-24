@@ -7,7 +7,6 @@ open WebSharper.UI.Client
 open WebSharper.UI.Templating
 open WebSharper.UI.Html
 
-
 [<JavaScript>]
 module Client =
     // The templates are loaded from the DOM, so you just can edit index.html
@@ -49,7 +48,7 @@ module Client =
 
         dropzone.AddEventListener("drop", System.Action<Dom.Event>(fun ev ->
             preventDefault ev
-            let files = ev.Target?dataTransfer?files |> unbox<FileList>
+            let files = ev?dataTransfer?files |> unbox<FileList> // Dynamically access dataTransfer and files
             updateFiles files
         ))
 
@@ -60,32 +59,43 @@ module Client =
         mergeBtn.AddEventListener("click", System.Action<Dom.Event>(fun _ ->
             match selectedFiles with
             | Some files when files.Length > 0 ->
-                let formData = new FormData()
-                for i in 0 .. files.Length - 1 do
-                    formData.Append("pdfs", files.[i])
-                let xhr = new XMLHttpRequest()
-                xhr.Open("POST", "/merge")
-                xhr.ResponseType <- XMLHttpRequestResponseType.Blob
-                xhr.OnLoad <- fun _ ->
-                    if xhr.Status = 200 then
-                        let blob = xhr.Response :?> Blob
-                        let url = URL.CreateObjectURL(blob)
+                let filePromises =
+                    [ for i in 0 .. files.Length - 1 ->
+                        async {
+                            let file = files.[i]
+                            let! arrayBuffer = file.ArrayBuffer() |> Promise.AsAsync
+                            let uint8Array = new Uint8Array(arrayBuffer) 
+                            let byteArray = Array.init uint8Array.Length (fun i -> uint8Array.Get(i)) // Use Get() to access elements
+                            return file.Name, byteArray
+                        }
+                    ]
+                async {
+                    resultDiv.InnerText <- "Merging PDFs, please wait..."
+                    let! fileData = Async.Parallel filePromises
+                    let! mergedPdf = PdfMerger.MergePdfs (fileData |> Array.toList)
+                    
+                    // Convert the byte[] to Uint8Array
+                    let uint8Array = new Uint8Array(mergedPdf)
+                    
+                    // Create a Blob from the Uint8Array
+                    let blob = new Blob([| uint8Array :> ArrayBufferView |], BlobPropertyBag(Type = "application/pdf"))
+                    let url = URL.CreateObjectURL(blob)
 
-                        let a = JS.Document.CreateElement("a") :?> HTMLElement
-                        a.SetAttribute("href", url)
-                        a.SetAttribute("download", "merged.pdf")
-                        a.Style.SetProperty("display", "none")
-                        JS.Document.Body.AppendChild(a) |> ignore
-                        a.Click()
+                    // Create an anchor element and trigger the download
+                    let a = JS.Document.CreateElement("a") :?> HTMLElement
+                    a.SetAttribute("href", url)
+                    a.SetAttribute("download", "merged.pdf")
+                    a.Style.SetProperty("display", "none")
+                    JS.Document.Body.AppendChild(a) |> ignore
+                    
+                    a.Click()
 
-                        URL.RevokeObjectURL(url)
-                        JS.Document.Body.RemoveChild(a) |> ignore
-                        
-                        resultDiv.InnerText <- "PDFs merged successfully!"
+                    URL.RevokeObjectURL(url)
+                    JS.Document.Body.RemoveChild(a) |> ignore
 
-                    else
-                        resultDiv.InnerText <- "Error: " + xhr.StatusText
-                xhr.Send(formData)
+                    resultDiv.InnerText <- "PDFs merged successfully!"
+                }
+                |> Async.Start
             | _ ->
                 resultDiv.InnerText <- "Please select PDF files first."
         ))

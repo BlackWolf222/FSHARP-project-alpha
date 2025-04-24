@@ -4,28 +4,37 @@
     <title>PDF Merger</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="img/pdf.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
         /* Don't show the not-yet-loaded templates */
         [ws-template], [ws-children-template] {
             display: none;
         }
     </style>
+    <script type="module" src="Scripts/Project_alpha.js"></script>
 </head>
 <body>
     <div>
         <h2 id="title">PDFMerger</h2>
-        <form id="form" method="post" action="/merge" enctype="multipart/form-data">
+        <form id="form">
             <div class="dropzone" id="drop">
-                <input type="file" name="pdfs" id="myFile" multiple accept=".pdf" />
-                <img src="img/pdf.png" alt="pdf icon" />
-                <label for="myFile">Válassz PDF-et vagy húzd ide!</label>
+                <input type="file" name="pdfs" id="myFile" multiple accept=".pdf">
+                <br><br>
+                <img src="img/pdf.png" alt="pdf icon">
+                <p>Drag 'n' drop some files here, or click to select files:</p>
+                <label for="File">Select files</label>
+                <input type="file" id="File" name="pdfs" multiple accept=".pdf">
             </div>
-            <div id="fdisplay"></div>
+            <div id="result"></div>
+            <br><br>
             <button type="button" id="mergeBtn">Merge PDFs</button>
+            <br><br>
+            <div id="dis">
+                <h3>&emsp; Files:</h3>
+                <div id="fdisplay"></div>
+            </div>
         </form>
-        <div id="result"></div>
     </div>
 </body>
 </html>

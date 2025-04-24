@@ -1,18 +1,1 @@
-[
-  {
-    "ContainingType": "Startup\u002BPipe #4 input at line 38@38",
-    "Method": "Invoke",
-    "RelativePath": "merge",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  }
-]
+[]
