@@ -6,6 +6,7 @@ function isIDisposable(x){
 function Main(){
   const dropzone=globalThis.document.getElementById("drop");
   const fileInput=globalThis.document.getElementById("myFile");
+  const fileselect=globalThis.document.getElementById("File");
   const mergeBtn=globalThis.document.getElementById("mergeBtn");
   const resultDiv=globalThis.document.getElementById("result");
   let selectedFiles=null;
@@ -28,6 +29,7 @@ function Main(){
     return updateFiles(ev.dataTransfer.files);
   });
   fileInput.addEventListener("change", () => updateFiles(fileInput.files));
+  fileselect.addEventListener("change", () => updateFiles(fileselect.files));
   mergeBtn.addEventListener("click", () => {
     let _1;
     if(selectedFiles!=null&&selectedFiles.$==1&&(selectedFiles.$0.length>0&&(_1=selectedFiles.$0,true))){

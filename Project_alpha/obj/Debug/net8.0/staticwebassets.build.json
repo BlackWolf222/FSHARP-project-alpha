@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Cjx9oTuBTaSWd+tffIqIu/Pir9J4mFmGNqn6bRsi5tU=",
+  "Hash": "SumSGAB4+dsrvYsKi51MOIDDsXY1OWdiA45pb7K9DUE=",
   "Source": "Project_alpha",
   "BasePath": "_content/Project_alpha",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3td0g07y4i",
-      "Integrity": "GbrLe2QPJUu82UdBZJG/PhVq2ATCarvKe4mpcqVcU28=",
+      "Fingerprint": "ihnvrwwtl2",
+      "Integrity": "WrxEgWPAhx2mOFmNkLjm89CS7eOuALtVD34Eqa5LS7I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -372,51 +372,6 @@
       ]
     },
     {
-      "Route": "index.3td0g07y4i.html",
-      "AssetFile": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1431"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GbrLe2QPJUu82UdBZJG/PhVq2ATCarvKe4mpcqVcU28=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3td0g07y4i"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GbrLe2QPJUu82UdBZJG/PhVq2ATCarvKe4mpcqVcU28="
-        }
-      ]
-    },
-    {
       "Route": "index.html",
       "AssetFile": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\wwwroot\\index.html",
       "Selectors": [],
@@ -427,7 +382,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1431"
+          "Value": "1417"
         },
         {
           "Name": "Content-Type",
@@ -435,11 +390,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GbrLe2QPJUu82UdBZJG/PhVq2ATCarvKe4mpcqVcU28=\""
+          "Value": "\"WrxEgWPAhx2mOFmNkLjm89CS7eOuALtVD34Eqa5LS7I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:08 GMT"
+          "Value": "Thu, 24 Apr 2025 20:24:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -449,7 +404,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GbrLe2QPJUu82UdBZJG/PhVq2ATCarvKe4mpcqVcU28="
+          "Value": "sha256-WrxEgWPAhx2mOFmNkLjm89CS7eOuALtVD34Eqa5LS7I="
+        }
+      ]
+    },
+    {
+      "Route": "index.ihnvrwwtl2.html",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WrxEgWPAhx2mOFmNkLjm89CS7eOuALtVD34Eqa5LS7I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 20:24:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ihnvrwwtl2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WrxEgWPAhx2mOFmNkLjm89CS7eOuALtVD34Eqa5LS7I="
         }
       ]
     },
@@ -476,7 +476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -521,7 +521,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -558,7 +558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -603,7 +603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -640,7 +640,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -685,7 +685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -722,7 +722,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -759,7 +759,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -804,7 +804,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -841,7 +841,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -886,7 +886,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -923,7 +923,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:49:33 GMT"
+          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
         },
         {
           "Name": "Cache-Control",

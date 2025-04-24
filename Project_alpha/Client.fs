@@ -27,6 +27,7 @@ module Client =
     let Main () : Doc =
         let dropzone = JS.Document.GetElementById("drop") :?> HTMLElement
         let fileInput = JS.Document.GetElementById("myFile") :?> HTMLInputElement
+        let fileselect = JS.Document.GetElementById("File") :?> HTMLInputElement
         let mergeBtn = JS.Document.GetElementById("mergeBtn") :?> HTMLButtonElement
         let resultDiv = JS.Document.GetElementById("result") :?> HTMLElement
 
@@ -54,6 +55,10 @@ module Client =
 
         fileInput.AddEventListener("change", System.Action<Dom.Event>(fun _ ->
             updateFiles fileInput.Files
+        ))
+
+        fileselect.AddEventListener("change", System.Action<Dom.Event>(fun _ ->
+            updateFiles fileselect.Files
         ))
 
         mergeBtn.AddEventListener("click", System.Action<Dom.Event>(fun _ ->
