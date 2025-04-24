@@ -8,7 +8,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -17,6 +17,17 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+
+      - name: Reinstall Node.js dependencies
+        run: |
+          cd Project_alpha
+          rm -rf node_modules # Remove existing node_modules
+          npm ci # Reinstall dependencies for the current platform
 
       - name: Install dependencies
         run: dotnet tool restore
