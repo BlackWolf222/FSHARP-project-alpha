@@ -8,6 +8,9 @@ This application leverages the functional programming capabilities of F# to prov
 **Try-live link:**
 https://blackwolf222.github.io/FSHARP-project-alpha
 
+**Screenshot**
+![image](https://github.com/user-attachments/assets/dd7f57ce-acc1-474d-b1c5-888d2cc4fe23)
+
 ---
 
 ## Motivation
