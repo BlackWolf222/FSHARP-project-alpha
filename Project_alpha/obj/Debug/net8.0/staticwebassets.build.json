@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SumSGAB4+dsrvYsKi51MOIDDsXY1OWdiA45pb7K9DUE=",
+  "Hash": "aJiHLdrc64NNbo57lPCW7QKe5rRyQB8nS5z5mJrx/QA=",
   "Source": "Project_alpha",
   "BasePath": "_content/Project_alpha",
   "Mode": "Default",
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "uvhsr1r5ka",
-      "Integrity": "difTVjWeWO3KXM2QwzTplvcqlbp4eFyWPh/ojsMHXKA=",
+      "Fingerprint": "qsmjtr1bj1",
+      "Integrity": "KlNHdS/oE6wjDU+uSmsVlOnMzep3lgJkQD5Um/ygCxE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\Project_alpha.js"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "92lt5ajfyl",
-      "Integrity": "4YzJ1/ZsbowctwAidMyrNYm5MvOYXPM6zWUJozkznek=",
+      "Fingerprint": "mokptmbi59",
+      "Integrity": "9rmi/wrbc35ItQdhYs8J9E5BK6cm3PGMBC9dXKVKNlg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\Project_alpha.min.js"
@@ -476,7 +476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -521,7 +521,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -558,7 +558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -603,7 +603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -640,7 +640,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -685,7 +685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -710,7 +710,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "90769"
+          "Value": "90912"
         },
         {
           "Name": "Content-Type",
@@ -718,11 +718,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"difTVjWeWO3KXM2QwzTplvcqlbp4eFyWPh/ojsMHXKA=\""
+          "Value": "\"KlNHdS/oE6wjDU+uSmsVlOnMzep3lgJkQD5Um/ygCxE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -732,52 +732,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-difTVjWeWO3KXM2QwzTplvcqlbp4eFyWPh/ojsMHXKA="
-        }
-      ]
-    },
-    {
-      "Route": "Scripts/Project_alpha.min.92lt5ajfyl.js",
-      "AssetFile": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "60702"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4YzJ1/ZsbowctwAidMyrNYm5MvOYXPM6zWUJozkznek=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "92lt5ajfyl"
-        },
-        {
-          "Name": "label",
-          "Value": "Scripts/Project_alpha.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4YzJ1/ZsbowctwAidMyrNYm5MvOYXPM6zWUJozkznek="
+          "Value": "sha256-KlNHdS/oE6wjDU+uSmsVlOnMzep3lgJkQD5Um/ygCxE="
         }
       ]
     },
@@ -792,7 +747,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "60702"
+          "Value": "60804"
         },
         {
           "Name": "Content-Type",
@@ -800,11 +755,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4YzJ1/ZsbowctwAidMyrNYm5MvOYXPM6zWUJozkznek=\""
+          "Value": "\"9rmi/wrbc35ItQdhYs8J9E5BK6cm3PGMBC9dXKVKNlg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -814,13 +769,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4YzJ1/ZsbowctwAidMyrNYm5MvOYXPM6zWUJozkznek="
+          "Value": "sha256-9rmi/wrbc35ItQdhYs8J9E5BK6cm3PGMBC9dXKVKNlg="
         }
       ]
     },
     {
-      "Route": "Scripts/Project_alpha.uvhsr1r5ka.js",
-      "AssetFile": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.js",
+      "Route": "Scripts/Project_alpha.min.mokptmbi59.js",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -829,7 +784,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "90769"
+          "Value": "60804"
         },
         {
           "Name": "Content-Type",
@@ -837,11 +792,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"difTVjWeWO3KXM2QwzTplvcqlbp4eFyWPh/ojsMHXKA=\""
+          "Value": "\"9rmi/wrbc35ItQdhYs8J9E5BK6cm3PGMBC9dXKVKNlg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -851,7 +806,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "uvhsr1r5ka"
+          "Value": "mokptmbi59"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/Project_alpha.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9rmi/wrbc35ItQdhYs8J9E5BK6cm3PGMBC9dXKVKNlg="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Project_alpha.qsmjtr1bj1.js",
+      "AssetFile": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\wwwroot\\Scripts\\Project_alpha.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KlNHdS/oE6wjDU+uSmsVlOnMzep3lgJkQD5Um/ygCxE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qsmjtr1bj1"
         },
         {
           "Name": "label",
@@ -859,7 +859,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-difTVjWeWO3KXM2QwzTplvcqlbp4eFyWPh/ojsMHXKA="
+          "Value": "sha256-KlNHdS/oE6wjDU+uSmsVlOnMzep3lgJkQD5Um/ygCxE="
         }
       ]
     },
@@ -886,7 +886,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -923,7 +923,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 20:18:17 GMT"
+          "Value": "Fri, 25 Apr 2025 06:03:58 GMT"
         },
         {
           "Name": "Cache-Control",
