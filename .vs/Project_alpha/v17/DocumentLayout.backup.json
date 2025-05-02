@@ -47,8 +47,7 @@
               "ViewState": "AgIAAB8AAAAAAAAAAADwvycAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-24T14:59:35.111Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "Project_alpha\\Client.fs",
               "ToolTip": "C:\\Users\\riott\\Desktop\\F\\FSHARP-project-alpha\\Project_alpha\\Client.fs",
               "RelativeToolTip": "Project_alpha\\Client.fs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwEEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-24T14:43:40.207Z",
               "IsPinned": true,
@@ -75,8 +74,7 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-04-24T14:40:06.109Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "Project_alpha\\site.fs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-24T19:34:36.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T19:34:36.398Z"
             },
             {
               "$type": "Document",
