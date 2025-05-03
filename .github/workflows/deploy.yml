@@ -1,6 +1,7 @@
 name: Deploy to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -16,10 +17,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false 
+          submodules: true
 
       - name: Build
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
 
@@ -34,6 +38,20 @@ jobs:
           rm -rf node_modules # Remove existing node_modules
           npm ci # Reinstall dependencies for the current platform
 
+      - name: Cache .NET packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-dotnet-${{ hashFiles('**/*.fsproj') }}
+          restore-keys: ${{ runner.os }}-dotnet-
+        
+      - name: Cache Node.js modules
+        uses: actions/cache@v3
+        with:
+          path: Project_alpha/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('Project_alpha/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
+
       - name: Install dependencies
         run: dotnet tool restore
 
@@ -41,8 +59,8 @@ jobs:
         run: dotnet publish -c Release -o out
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./Project_alpha/out
-          publish_branch: gh-pages
+          BRANCH: gh-pages
+          FOLDER: out
