@@ -6,7 +6,7 @@ The F# PDF Merger is a specialized tool designed to combine multiple PDF documen
 This application leverages the functional programming capabilities of F# to provide a clean, efficient solution for PDF merging tasks that are common in both professional and academic environments.
 
 **Try-live link:**
-https://blackwolf222.github.io/FSHARP-project-alpha
+[https://blackwolf222.github.io/FSHARP-project-alpha](https://pdfmerger-f8h9gpc4chbxg5df.northeurope-01.azurewebsites.net)
 
 **Screenshot**
 ![image](https://github.com/user-attachments/assets/dd7f57ce-acc1-474d-b1c5-888d2cc4fe23)
