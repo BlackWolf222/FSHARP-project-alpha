@@ -38,26 +38,23 @@ jobs:
           rm -rf node_modules # Remove existing node_modules
           npm ci # Reinstall dependencies for the current platform
 
-      - name: Cache .NET packages
-        uses: actions/cache@v3
-        with:
-          path: ~/.nuget/packages
-          key: ${{ runner.os }}-dotnet-${{ hashFiles('**/*.fsproj') }}
-          restore-keys: ${{ runner.os }}-dotnet-
-        
-      - name: Cache Node.js modules
-        uses: actions/cache@v3
-        with:
-          path: Project_alpha/node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('Project_alpha/package-lock.json') }}
-          restore-keys: ${{ runner.os }}-node-
-
-      - name: Install dependencies
-        run: dotnet tool restore
-
       - name: Build project
         run: dotnet publish -c Release -o out
 
+      - name: Check output directory
+        run: |
+          ls -la out
+          ls -la out/wwwroot || echo "No wwwroot directory"
+        
+      - name: Prepare deployment
+        run: |
+          # If index.html is in a wwwroot subfolder, copy it to the root
+          if [ -f out/wwwroot/index.html ]; then
+            cp -r out/wwwroot/* out/
+          fi
+          # Create a .nojekyll file to prevent GitHub Pages from ignoring files starting with underscore
+          touch out/.nojekyll
+        
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
