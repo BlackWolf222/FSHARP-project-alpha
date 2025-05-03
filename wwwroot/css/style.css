@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+#title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.dropzone {
+    border: 3px dashed #00bfff;
+    border-radius: 12px;
+    padding: 60px;
+    background-color: #1e1e1e;
+    margin-bottom: 40px;
+}
+
+.dropzone img {
+    width: 100px;
+    height: 100px;
+}
+
+.dropzone p {
+    color: #cccccc;
+    font-size: 20px; 
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: none; 
+}
+
+label {
+    color: #00bfff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 20px; 
+}
+
+#mergeBtn {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    width: 200px;
+    border-radius: 22px;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+}
+
+#mergeBtn:hover {
+    background-color: #0099cc;
+}
+
+#dis {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#dis h3 {
+    color: #00bfff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#fdisplay {
+    color: #e0e0e0;
+    font-size: 18px;
+}
